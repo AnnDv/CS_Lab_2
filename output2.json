@@ -1,0 +1,17 @@
+<custom_item>
+	custom_item_number : 4
+</custom_item>
+	type : MACOSX_DEFAULTS_READ
+</custom_item>
+	description : "1.4 Enable app update installs"
+</custom_item>
+	regex : "1"
+</custom_item>
+	plist_item : "AutoUpdate"
+</custom_item>
+	plist_option : CANNOT_BE_NULL
+</custom_item>
+	info : "Ensure that application updates are installed after they are available from Apple. These updates do not require reboots or admin privileges for end users.
+</custom_item>
+	see_also : "https://workbench.cisecurity.org/files/3425"
+</custom_item>
