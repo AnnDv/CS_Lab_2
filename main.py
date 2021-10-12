@@ -295,7 +295,7 @@ def save():
     select_all_btn.config(command=select_all)
 
     # select none button
-    select_none_btn = Button(root_checkbox, text='Select All')
+    select_none_btn = Button(root_checkbox, text='Deselect All')
     select_none_btn.pack(side=TOP)
     select_none_btn.config(command=select_none)
 
@@ -383,7 +383,7 @@ def save_as_file():
     select_all_btn.config(command=select_all)
 
     # select none button
-    select_none_btn = Button(root_checkbox, text='Select All')
+    select_none_btn = Button(root_checkbox, text='Deselect All')
     select_none_btn.pack(side=TOP)
     select_none_btn.config(command=select_none)
 
@@ -472,7 +472,7 @@ def export():
     select_all_btn.config(command=select_all)
 
     # select none button
-    select_none_btn = Button(root_checkbox, text='Select All')
+    select_none_btn = Button(root_checkbox, text='Deselect All')
     select_none_btn.pack(side=TOP)
     select_none_btn.config(command=select_none)
     root_checkbox.mainloop()
